@@ -63,7 +63,7 @@ rerun_options_parse "$@"
 # Put the command implementation here.
 # - - -
 
-rerun github:create-download --force true --file discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.rf.${ARCHITECTURE}.rpm --owner ${OWNER} --repository ${REPOSITORY}
+rerun github:create-download --force true --file discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.${ARCHITECTURE}.rpm --owner ${OWNER} --repository ${REPOSITORY}
 
 # Done. Exit with last command exit status.
 exit $?
