@@ -63,7 +63,7 @@ rerun_options_parse "$@"
 # Put the command implementation here.
 # - - -
 
-wget --quiet -O discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.rf.${ARCHITECTURE}.rpm ${REPOFORGE_URL}/el${DISTRIBUTION_RELEASE_VERSION}/en/${ARCHITECTURE}/rpmforge/RPMS/discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.rf.${ARCHITECTURE}.rpm
+wget --quiet -O discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.${ARCHITECTURE}.rpm ${REPOFORGE_URL}/el${DISTRIBUTION_RELEASE_VERSION}/en/${ARCHITECTURE}/rpmforge/RPMS/discount-${VERSION}-${RELEASE}.el${DISTRIBUTION_RELEASE_VERSION}.rf.${ARCHITECTURE}.rpm
 
 # Done. Exit with last command exit status.
 exit $?
